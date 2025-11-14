@@ -30,9 +30,3 @@ Form submits data to **your Pipedream API endpoint** without page refresh.
 Each page includes a downloadable PDF brochure.
 
 ---
-
-## 🚀 How to Run
-
-### **1. Download or Clone the Repository**
-
-"https://your-pipedream-url";
