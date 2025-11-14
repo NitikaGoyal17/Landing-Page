@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Amity University Landing Page</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Amity University</h1>
+    <p>Premium private university known for global exposure and placements.</p>
+    
+    <div class="cta-box">
+      <button onclick="openFeesModal('uni-a')">Check Course-wise Fees</button>
+      <a href="lpu-brochure.pdf" download class="btn">Download Brochure</a>
+      <a href="#leadForm" class="btn">Apply Now</a>
+    </div>
+  </header>
+
+  <section class="info">
+    <h2>University Overview</h2>
+    <p>Amity is known for practical training, global faculty, and skill-based education.</p>
+
+    <h2>Courses Offered</h2>
+    <ul>
+<li>B.Tech (CSE, IT, ECE, Mechanical, Civil)</li>
+<li>MBA (HR, Finance, Marketing, Business Analytics)</li>
+<li>MCA</li>
+<li>BBA</li>
+<li>BA, B.Com, B.Sc., M.Sc.</li>
+<li>Pharmacy & Agriculture Programs</li>
+</ul>
+
+    <h2>Placements</h2>
+    <ul>
+<li>Highest Package: ₹3 Cr (International)</li>
+<li>Average Package: ₹6–12 LPA</li>
+<li>Top Recruiters: Google, Microsoft, Amazon, TCS, Infosys</li>
+<li>500+ Companies Visit Every Year</li>
+<li>Internships & Live Projects for All Students</li>
+<li>Placement Training: Mock Interviews, Aptitude, Soft Skills</li>
+</ul>
+
+    <h2>Facilities</h2>
+    <ul>
+<li>Smart Classrooms & Hi‑Tech Labs</li>
+<li>Central Library (1M+ Books & E‑Resources)</li>
+<li>Hostels with AC/Non‑AC Options</li>
+<li>Sports Complex (Cricket, Football, Indoor Games)</li>
+<li>24×7 Medical & Security</li>
+<li>Campus Shuttle, Banks, ATMs, Food Courts</li>
+<li>International Student Lounge & Innovation Labs</li>
+</ul>
+  </section>
+
+  <section id="leadForm" class="form-section">
+    <h2>Apply Now</h2>
+
+    <form id="leadFormA">
+      <input type="text" name="fullName" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="phone" placeholder="Phone (10 digits)" pattern="[0-9]{10}" required />
+
+      <select name="state" required>
+        <option value="">Select State</option>
+        <option>Punjab</option>
+        <option>Delhi</option>
+        <option>Haryana</option>
+        <option>Uttar Pradesh</option>
+      </select>
+
+      <select name="course" id="courseDropdownA" required>
+        <option value="">Course Interested</option>
+        <option value="MCA">MCA</option>
+        <option value="BCA">BCA</option>
+        <option value="Btech">Btech Computer Science</option>
+        <option value="Mtech">Mtech Computer Science</option>
+        <option value="Bsc">B.s.c</option>
+        <option value="Bcom">Bcom</option>
+      </select>
+
+      <select name="intake" required>
+        <option value="">Intake Year</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2027</option>
+      </select>
+
+      <label class="consent">
+<input type="checkbox" required> I agree to be contacted by the university.
+</label>
+
+      <button type="submit">Submit</button>
+      <p id="msgA"></p>
+    </form>
+  </section>
+
+  <!-- Fees Modal -->
+  <div id="feesModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeFeesModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <ul id="feeList"></ul>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

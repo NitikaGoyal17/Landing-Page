@@ -1,0 +1,61 @@
+{
+  "uni-a": {
+    "name": "Lovely Professional University (LPU)",
+    "courses": [
+      { "name": "BCA", "feeRange": "₹45,000 - ₹90,000" },
+      { "name": "MCA", "feeRange": "₹60,000 - ₹1,20,000" },
+      { "name": "B.Tech CSE", "feeRange": "₹1,20,000 - ₹2,20,000" },
+      { "name": "MBA", "feeRange": "₹90,000 - ₹2,00,000" }
+    ],
+    "placements": {
+      "topCompanies": [
+        "Amazon",
+        "Google",
+        "Walmart",
+        "Microsoft",
+        "IBM",
+        "Deloitte"
+      ],
+      "avgPackage": "6 LPA"
+    },
+    "facilities": [
+      "Hostels",
+      "Swimming Pool",
+      "Research Labs",
+      "Sports Stadium",
+      "AI Innovation Center",
+      "Library",
+      "Cafeteria"
+    ]
+  },
+
+  "uni-b": {
+    "name": "Amity University",
+    "courses": [
+      { "name": "B.Tech CSE", "feeRange": "₹1,10,000 - ₹2,00,000" },
+      { "name": "MBA", "feeRange": "₹1,00,000 - ₹2,50,000" },
+      { "name": "BBA", "feeRange": "₹50,000 - ₹1,00,000" },
+      { "name": "MCA", "feeRange": "₹70,000 - ₹1,50,000" }
+    ],
+    "placements": {
+      "topCompanies": [
+        "Accenture",
+        "Capgemini",
+        "Infosys",
+        "EY",
+        "TCS",
+        "Wipro"
+      ],
+      "avgPackage": "5 LPA"
+    },
+    "facilities": [
+      "Labs",
+      "Gym",
+      "Sports Area",
+      "Digital Library",
+      "Media Center",
+      "Placement Cell",
+      "Hostel"
+    ]
+  }
+}
